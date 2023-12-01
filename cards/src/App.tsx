@@ -20,7 +20,7 @@ function App() {
         maxWidth: '250px',
         minWidth: '250px'
       }}>
-        { children }
+        {children}
         <div className="card-body">
           <h5 className="card-title">{title}</h5>
           <p className="card-text">{text}</p>
@@ -32,9 +32,21 @@ function App() {
 
   return (
     <>
-      <Card title='Test title' text='Test text'>
-        <CardImg imgSrc='http://alfa.dev-top-it.ru/local/templates/alpha/img/nophoto.jpg'></CardImg>
-      </Card>
+      <div className='row'>
+
+          <div className="col-sm-6">
+            <Card title='Test title 1' text='Test text 1'>
+              <CardImg imgSrc='http://alfa.dev-top-it.ru/local/templates/alpha/img/nophoto.jpg'></CardImg>
+            </Card>
+          </div>
+
+          <div className="col-sm-6">
+            <Card title='Test title 2' text='Test text 2'>
+              <CardImg imgSrc=''></CardImg>
+            </Card>
+          </div>
+          
+      </div>
     </>
   )
 }
