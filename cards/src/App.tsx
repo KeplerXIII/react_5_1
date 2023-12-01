@@ -34,14 +34,20 @@ function App() {
     <>
       <div className='row'>
 
-        <div className="col-sm-6">
+        <div className="col">
           <Card title='Test title 1' text='Test text 1'>
             <CardImg imgSrc='http://alfa.dev-top-it.ru/local/templates/alpha/img/nophoto.jpg'></CardImg>
           </Card>
         </div>
 
-        <div className="col-sm-6">
+        <div className="col">
           <Card title='Test title 2' text='Test text 2'>
+            <CardImg imgSrc='http://alfa.dev-top-it.ru/local/templates/alpha/img/nophoto.jpg'></CardImg>
+          </Card>
+        </div>
+
+        <div className="col">
+          <Card title='Test title 3' text='Test text 3'>
             <CardImg imgSrc=''></CardImg>
           </Card>
         </div>
